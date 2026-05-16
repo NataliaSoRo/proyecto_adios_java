@@ -11,7 +11,13 @@ public class AdiosJava{
        numero2 = scanner.nextInt();
        int resultado = numero1 + numero2;
        System.out.println("La suma es: " + resultado);
-
+       // La llamada al metodo de restar
+        int resultadoResta = restar(numero1, numero2);
+        System.out.println("La resta es: " + resultadoResta);
+    }
+    // Metodo de la resta
+    public static int restar(int numero1, int numero2) {
+        return numero1 - numero2;
     }
 
 }
